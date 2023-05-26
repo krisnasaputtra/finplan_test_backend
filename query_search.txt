@@ -1,0 +1,2 @@
+1. indexing sql
+2. how to create query with indexing

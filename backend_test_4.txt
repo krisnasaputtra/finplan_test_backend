@@ -1,0 +1,5 @@
+SELECT users.name, AVG(hobbies.level) AS total FROM users 
+LEFT JOIN map_user_hobby ON users.id = map_user_hobby.id_user 
+LEFT JOIN hobbies ON map_user_hobby.id_hobby = hobbies.id  
+GROUP BY users.name
+HAVING COUNT(map_user_hobby.id_hobby) > 1
