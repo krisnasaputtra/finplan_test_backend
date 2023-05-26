@@ -1,13 +1,3 @@
--- Active: 1683526549326@@127.0.0.1@3306@finplan_test
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: localhost
--- Waktu pembuatan: 25 Bulan Mei 2023 pada 17.21
--- Versi server: 10.4.28-MariaDB
--- Versi PHP: 8.2.4
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
